@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.EncryptConfig", "AspNetCore.EncryptConfig\AspNetCore.EncryptConfig.csproj", "{08F9F420-5407-425A-B20C-AF0C166CF62E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{14D21EFA-6731-44F8-AACF-71AFD2294800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{FAD21FB5-9490-484A-B485-C305CAB317D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.EncryptConfig.Tests", "AspNetCore.EncryptConfig.Tests\AspNetCore.EncryptConfig.Tests.csproj", "{F058C144-412C-4082-A96D-705DBCB74752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.EncryptConfig.WAppExample", "AspNetCore.EncryptConfig.WAppExample\AspNetCore.EncryptConfig.WAppExample.csproj", "{54C596E9-6D68-437E-893C-9E06629C3170}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{038E340D-0796-434A-A8F4-6C2E831E531B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptConfig.CApp", "EncryptConfig.CApp\EncryptConfig.CApp.csproj", "{E3F9EEC6-C3CA-46DC-AB55-2F565D24803C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08F9F420-5407-425A-B20C-AF0C166CF62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F9F420-5407-425A-B20C-AF0C166CF62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F9F420-5407-425A-B20C-AF0C166CF62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F9F420-5407-425A-B20C-AF0C166CF62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F058C144-412C-4082-A96D-705DBCB74752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F058C144-412C-4082-A96D-705DBCB74752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F058C144-412C-4082-A96D-705DBCB74752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F058C144-412C-4082-A96D-705DBCB74752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C596E9-6D68-437E-893C-9E06629C3170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C596E9-6D68-437E-893C-9E06629C3170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C596E9-6D68-437E-893C-9E06629C3170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C596E9-6D68-437E-893C-9E06629C3170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F9EEC6-C3CA-46DC-AB55-2F565D24803C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F9EEC6-C3CA-46DC-AB55-2F565D24803C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F9EEC6-C3CA-46DC-AB55-2F565D24803C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F9EEC6-C3CA-46DC-AB55-2F565D24803C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08F9F420-5407-425A-B20C-AF0C166CF62E} = {FAD21FB5-9490-484A-B485-C305CAB317D3}
+		{F058C144-412C-4082-A96D-705DBCB74752} = {FAD21FB5-9490-484A-B485-C305CAB317D3}
+		{54C596E9-6D68-437E-893C-9E06629C3170} = {14D21EFA-6731-44F8-AACF-71AFD2294800}
+		{E3F9EEC6-C3CA-46DC-AB55-2F565D24803C} = {038E340D-0796-434A-A8F4-6C2E831E531B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97E438CC-D16F-4D0E-A338-7D16F9A0DBF7}
+	EndGlobalSection
+EndGlobal
