@@ -96,9 +96,9 @@ namespace EncryptConfig.CApp
 
                 //5.0 creación de nuevos archivos
                 var dir = Directory.CreateDirectory(Path.Combine(directory, "cipher"));
-                File.WriteAllText(Path.Combine(dir.FullName, $"config.{env}.jcif"), encryptInfo);//5.1 guardamos archivo de equivalentes
+                File.WriteAllText(Path.Combine(dir.FullName, $"config.{env}.jcif"), encryptInfo);            //5.1 guardamos archivo de equivalentes
                 File.WriteAllText(Path.Combine(dir.FullName, $"appsettings.{env}.jcif"), encryptAppsettings);//5.2 guardamos archivo de appsettings
-                File.WriteAllText(Path.Combine(dir.FullName, $"config.k.{env}.jcif"), encodeKey);//5.3 guardado archivo de llave principal codificada base64
+                File.WriteAllText(Path.Combine(dir.FullName, $"config.k.{env}.jcif"), encodeKey);            //5.3 guardado archivo de llave principal codificada base64
 
                 WriteLine("Proceso finalizado con éxito...", ConsoleColor.DarkGreen);
             }

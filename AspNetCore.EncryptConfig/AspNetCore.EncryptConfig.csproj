@@ -2,7 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Michael Emir</Authors>
+    <Company>Syntepro</Company>
+    <Description>Librerias que facilita el cifrado de datos de configuración.</Description>
   </PropertyGroup>
 
   <ItemGroup>
