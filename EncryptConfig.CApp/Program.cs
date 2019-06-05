@@ -80,7 +80,7 @@ namespace EncryptConfig.CApp
                 if (print)
                 {
                     WriteLine($"Obfuscate => {obfusAppsettings}", ConsoleColor.DarkCyan);
-                    WriteLine($"Load Equivalents => \n{string.Join("\n", equivalentsProperties.Select(item => $"{item.Key}: {item.Value}"))}");
+                    WriteLine($"Load Equivalents => \n{string.Join("\n", equivalentsProperties.Select(item => $"{item.Value}: {item.Key}"))}");
                 }
 
                 //2.0 obtenemos la llave secundaria del archivo de equivalentes

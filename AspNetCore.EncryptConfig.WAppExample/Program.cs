@@ -24,7 +24,8 @@ namespace AspNetCore.EncryptConfig.WAppExample
 
             config.AddEncryptConfigFile($"appsettings.{environmentName}.jcif", 
                                         $"config.k.{environmentName}.jcif", 
-                                        $"config.{environmentName}.jcif");
+                                        $"config.{environmentName}.jcif", 
+                                        optional: true);
 
             return WebHost.CreateDefaultBuilder(args)
                             .UseConfiguration(config.Build())
